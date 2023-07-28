@@ -1,0 +1,87 @@
+.column{
+    color: crimson;
+    background: rebeccapurple;
+    margin: 35px;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 30px;
+}
+.column:hover{
+    background-color: yellow;
+    font-size: 50px;
+    color: darkblue;
+    font-weight: 30px;
+}
+.less{
+    color: crimson;
+    background: rebeccapurple;
+    display: none;
+
+}
+nav{ 
+    background-color: aqua;
+    padding: 25px;
+    margin: 30px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 600px){
+    nav{
+        background-color: aqua;
+        padding: 25px;
+        margin: 20px;
+        flex-direction: column;
+    }
+    .column{
+        color: crimson;
+    background: rebeccapurple;
+    display: flex;
+    margin: 10px 0px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    }
+    .less{
+        color: crimson;
+        background: rebeccapurple;
+        display: inline;
+        border: 2px solid white;
+    }
+}
+.primera{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.precio{
+    font-size: 40px;
+    font-weight: 500;
+    color: aqua;
+}
+.compra{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    background: #dddbdb;
+    box-shadow: 10px 10px 5px #888;
+}
+.ancla:hover{
+    color: rgb(170, 235, 235);
+}
+.tittle{
+    font-weight: 400;
+}
+.quality{
+    font-weight: 300;
+}
+.ancla{
+    text-decoration: none;
+    color: black;
+    background: salmon;
+}
